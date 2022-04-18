@@ -1,0 +1,21 @@
+.jogar{
+    border-radius: 2px;
+    border: none;
+}
+.BPesquisa{
+    border-radius: 2px;
+    border: none;
+    height: 30px;
+
+}
+.ordem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.OrdemDosJogos{
+    margin-right: 5px;
+}
+.JogosPesquisa{
+    width: 320px;
+}

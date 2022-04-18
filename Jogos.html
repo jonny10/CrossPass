@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="CSS/barraTopo.css" rel="stylesheet" />
+    <link href="CSS/StyleJogo.css" rel="stylesheet" />
+    <title>Jogos</title>
+</head>
+<body>
+    <header>
+        <container>
+            <div class="container">
+                <div class="row header barraTopo">
+                    <div class="col-1 Guia">
+                        <img class="ImgBarra" src="assets/IMG/Logo.jpg" alt="Logotipo da loja" width="35px">                       
+                    </div>
+                    <div class="col-1 Guia text-center">
+                        <a href="INDEX.html"><p>Home</p></a>                    
+                    </div>
+                    <div class="col-1 Guia text-center">
+                        <a href="Jogos.html"><p>Jogos</p></a>                    
+                    </div>
+                    <div class="col-1 Guia text-center">
+                        <p>Loja</p>                    
+                    </div>
+                    <div class="col-1 Guia text-center">
+                        <p>Suporte</p>                    
+                    </div>
+                    <div class="col-3">
+                                     
+                    </div>
+                    <div class="col-3 Col-pesquisa">
+                        <input class="PesquisaBarra" id="search" placeholder=""/>
+                    </div>
+                    <div class="col-1 pesquisaPrinc">
+                        <img class="ImgBarra"  src="assets/IMG/LupaDePesquisa.png" alt="Icone de Lupa para pesquisar" width="25px">
+                    </div>
+                </div>
+            </div>
+        </container>
+    </header>
+    <container>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col-4 ">
+                            <input class="JogosPesquisa" id="PesquisaMarcador" />
+                        </div>
+                        <div class="col-1">
+                            <button class="BPesquisa" type="submit">
+                                <span>Buscar</span>
+                            </button>
+                        </div>
+                        <div class="col-3">
+
+                        </div>
+                        <div class="col-4 ordem">
+                            <label class="OrdemDosJogos" for="OrdemDosJogos">Ordenar por:</label>
+                            <select class="OrdemDosJogos" id="OrdemDosJogos">
+                                <option selected>Relevância</option>
+                                <option value="1">Data de lançamento</option>
+                                <option value="2">Nome</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card mb-3 mt-3">
+                        <img class="card-img-top" src="https://t2.tudocdn.net/608883?w=1920&h=1080" height="180px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                          <h5 class="card-title">GTA V</h5>
+                          <p class="card-text">Grand Theft Auto V é um jogo eletrônico de ação-aventura que pode ser jogado a partir de uma perspectiva em terceira pessoa ou primeira pessoa, porém esta última é disponível apenas nas plataformas PlayStation 4, Xbox One e Microsoft Windows.</p>
+                          <button class="jogar" type="submit"><img src='/assets/IMG/Play.png' width="20px"/></button>
+                          <p class="card-text"><small class="text-muted">17 de setembro de 2013</small></p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="https://thumbs.web.sapo.io/?W=800&H=0&delay_optim=1&epic=MzliDT12d/PZzYq0Xk2futKW3ze5uIP/qteuI5keryOV3PFlr2eQaeHgEWzUc4Rx+gFNfdGtf7uslwq4iNoV10eGoZkQORmPKtGZ7upmndw9sqA=" height="180px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                          <h5 class="card-title">God of War</h5>
+                          <p class="card-text">God of War é um jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e publicado pela Sony Interactive Entertainment. disponível para PlayStation e Microsoft Windows.</p>
+                          <p class="card-text"><small class="text-muted">20 de abril de 2018</small></p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="https://cdn-ext.fanatical.com/production/product/1280x720/68310a3e-4b93-45dc-b195-643a7ff53d51.jpeg" height="180px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                          <h5 class="card-title">Mortal Kombat 11</h5>
+                          <p class="card-text">Mortal Kombat 11 é um jogo eletrônico de luta desenvolvido pela NetherRealm Studios e publicado pela Warner Bros. Interactive Entertainment. É a décima primeira edição principal da série de jogos eletrônicos de luta, Mortal Kombat, e uma continuação direta de Mortal Kombat X</p>
+                          <p class="card-text"><small class="text-muted">22 de abril de 2019</small></p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <img class="card-img-top" src="https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2020/11/22093431/the-legend-of-zelda-breath-of-the-wild-switch-hero.jpg" height="180px" alt="Imagem de capa do card">
+                        <div class="card-body">
+                          <h5 class="card-title">The Legend of Zelda: Breath of the Wild</h5>
+                          <p class="card-text">The Legend of Zelda: Breath of the Wild é um jogo eletrônico de ação-aventura desenvolvido pela Nintendo Entertainment Planning & Development e publicado pela Nintendo. É o décimo nono título da série The Legend of Zelda e foi lançado mundialmente para Wii U e Nintendo Switch.</p>
+                          <p class="card-text"><small class="text-muted">3 de março de 2017</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card">
+                        <div class="card-header">
+                          Gênero
+                        </div>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                          Ação
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                          Aventura
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                          RPG
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                          Multijogador
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                          Estratégia
+                        </li>
+                    </ul>
+                    <div class="card mt-3">
+                        <div class="card-header">
+                          Desenvolvedor
+                        </div>
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                          Santa Monica
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                          Rockstar
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                          Ubisoft
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                          CD projekt RED
+                        </li>
+                        <li class="list-group-item">
+                          <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                          FromSoftware
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-1">
+
+                </div>
+            </div>
+        </div>
+    </container>
+</body>class="container mt-5">
