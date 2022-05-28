@@ -1,0 +1,70 @@
+body{
+    background-color: #171A1D;
+    margin-top: 76px;
+    padding: 0;
+}
+.cabecalho{
+    margin-bottom: 56px;
+}
+.imgPerfil{
+    width: "200";
+    height: "200";
+    border: 1px solid #0ECAF0;
+}
+.nick{
+    font-size: 48px;
+}
+.InfosP{
+    color: #0ECAF0;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.colBio{
+    display: flex;
+    justify-content: end;
+}
+.perfilCol{
+    display: flex;
+    justify-content: center;
+}
+.bio{
+    width: 600px; 
+    height: 200px; 
+    background-color: transparent;
+    color: #0ECAF0;
+    border: 1px solid #0ECAF0;
+}
+.butoes button{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 42px;
+}
+.TituloJogados{
+    height: 54px;
+    background-color: #03989E;
+    text-align: center;
+    color: white;
+
+}
+.Jogados{
+    height: 114px;
+    background-color: #03989E;
+    color: white;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    text-align: center;
+}
+.infos{
+    height: 586px;
+    color: white;
+    background-color: #03989E;
+}
+.TituloInfos{
+    text-align: center;
+    font-size: 36px;
+}
+.Info{
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 5px;
+}

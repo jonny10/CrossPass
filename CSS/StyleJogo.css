@@ -1,21 +1,74 @@
-.jogar{
-    border-radius: 2px;
-    border: none;
+body{
+    background-color: #171a1d;  margin-top: 56px; padding: 0;
+  }
+#p_titulo_inicial{
+    text-align: center; color: #000000; padding-top: 20px; padding-bottom: 20px; font-size: 40px;
 }
-.Botão{
-    border-radius: 2px;
-    border: none;
-    height: 30px;
 
+
+#card_jogos{
+    margin: 20px; border-radius: 3%; width: 400px; height: 220px;
+}
+#h1_nome_Jogo{
+    font-size: 24px; color: black; margin-left: 40px;
+}
+#p_Descrição_Jogo{
+    font-size: 15px; color: black; margin-left: 40px;
+}
+#button_Jogar{
+    margin-left: 40px;
+}
+#button_saiba_mais{
+    margin-left: 40px; position: absolute;
+}
+#img_background{
+    position: relative; filter: blur(10px); opacity: 90%; height: 800px;
+}
+
+#img_principal{
+    width: 700px; left: 350px; top: 100px; position: absolute; border-radius: 3%;
+}
+#h5_resident_evil{
+    color: #daa520; text-align: center; font-size: 36px; 
+}
+#p1_resident_evil{
+    color: whitesmoke; text-align: center; padding-top: 460px;
+}
+#p2_resident_evil{
+    color: whitesmoke; text-align: center; padding-top: 10px;
+}
+#button_Jogar1{
+    margin-left: 170px; margin-top: 30px;
+}
+.filtro{
+    background-color: transparent;
+    border: #0dcaf0 solid 1px;
+    color: #0dcaf0;
+}
+.JogosPesquisa{
+    width: 210px;
+    height: 30px;
+    border-radius: .25rem;
+    background-color: transparent;
+    border: #0dcaf0 solid 1px;
+    color: #0dcaf0;
+}
+.BPesquisa{
+    height: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.OrdemDosJogos{
+    background-color: transparent;
+    border: none;
+    color: #0dcaf0;
 }
 .ordem{
     display: flex;
-    align-items: center;
     justify-content: flex-end;
+    justify-items: flex-end;
+    padding-right: 0;
 }
-.OrdemDosJogos{
-    margin-right: 5px;
-}
-.JogosPesquisa{
-    width: 320px;
+.linha-pesquisa{
+    margin-left: 16px;
 }
