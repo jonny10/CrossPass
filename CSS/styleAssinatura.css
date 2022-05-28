@@ -45,7 +45,6 @@ body {
     max-width: 160rem;
     margin: 0 auto;
     height: var(--tamanho-col);
-    
 }
 
 .linha:not(:last-child) {
@@ -91,13 +90,4 @@ body {
 }
 .resumo{
     margin: 5rem auto;
-}
-.col-8{
-    background-color: whitesmoke; color: #171a1d;
-}
-.col-8 h1{
-    color: #171a1d; padding-bottom: 2%;
-}
-.col-8 p{
-    color: #03989E; border-bottom: #171a1d;
 }
