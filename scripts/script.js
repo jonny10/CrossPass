@@ -61,3 +61,83 @@ const fetchJogos = () => {
             console.log(error);
         });
 }
+
+
+const checkForm = {
+    nameAlert: false,
+    emailAlert: false,
+    telefoneAlert: false,
+    categoriaAlert: false,
+    mensagemAlert: false,
+}
+
+document.getElementById('floatingName').addEventListener('input', function (e) {
+    const nameAlert = e.target.value;
+    if (nameAlert.length < 5 || nameAlert.length > 50) {
+        document.getElementById('alertNome').style.display = "block";
+        checkForm.nameAlert = false;
+    } else {
+        document.getElementById('alertNome').style.display = "none";
+        checkForm.nameAlert = true;
+    }
+    enableButton();
+});
+
+document.getElementById('floatingInputEmail').addEventListener('input', function (e) {
+    const emailAlert = e.target.value;
+    if (emailAlert.length < 5) {
+        document.getElementById('alertEmail').style.display = "block";
+        checkForm.emailAlert = false;
+    } else {
+        document.getElementById('alertEmail').style.display = "none";
+        checkForm.emailAlert = true;
+    }
+    enableButton();
+});
+
+document.getElementById('floatingNumero').addEventListener('input', function (e) {
+    const telefoneAlert = e.target.value;
+    if (telefoneAlert.length != 11) {
+        document.getElementById('alertNumero').style.display = "block";
+        checkForm.telefoneAlert = false;
+    } else {
+        document.getElementById('alertNumero').style.display = "none";
+        checkForm.telefoneAlert = true;
+    }
+    enableButton();
+});
+
+document.getElementById('floatingSelect').addEventListener('change', function(e) {
+    const categoriaAlert = e.target.value;
+    if(categoriaAlert != 0){
+        document.getElementById('alertCategoria').style.display = "none";
+        checkForm.categoriaAlert = true;
+    } else {
+        document.getElementById('alertCategoria').style.display = "block";
+        checkForm.categoriaAlert = false;
+    }
+    enableButton();
+})
+
+document.getElementById('floatingTextarea2').addEventListener('input', function (e) {
+    const mensagemAlert = e.target.value
+    if(mensagemAlert.length < 5) {
+        document.getElementById('alertMensagem').style.display = "block"
+        checkForm.mensagemAlert = false;
+    }else{
+        document.getElementById('alertMensagem').style.display = "none"
+        checkForm.mensagemAlert = true;
+    }
+    enableButton();
+});
+
+
+
+function enableButton() {
+    const buttonEnviar = document.getElementById("buttonCadastrar");
+    if (checkForm.nameAlert && checkForm.emailAlert && checkForm.telefoneAlert && checkForm.categoriaAlert && mensagemAlert) {
+            buttonEnviar.disabled = false;
+    } else {
+        buttonEnviar.disabled = true;
+    }
+}

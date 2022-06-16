@@ -6,7 +6,7 @@
 }
 .cardLogin{
     width: 450px; 
-    height: 500px; 
+    height: 78%; 
     margin-top: 50px;
     border-radius: 15px;
     background-color: #212529;
@@ -35,5 +35,14 @@
 }
 .button_Logar{
     border: 1px #0dcaf0 solid;
+    color: #0dcaf0;
+}
+.alerta{
+    background: 30%;
+    border-color: red;
+    margin-top: 2px;
+    display: none;
+}
+.form-control{
     color: #0dcaf0;
 }

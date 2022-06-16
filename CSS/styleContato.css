@@ -9,3 +9,10 @@ body{
     border: #0dcaf0 solid 1px;
     color: #0dcaf0;
 }
+.alerta{
+    background: 30%;
+    margin-top: 5px;
+    border-color: red;
+    margin-bottom: 15px;
+    display: none;
+}
